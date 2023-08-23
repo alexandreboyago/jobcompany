@@ -1,0 +1,52 @@
+  @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Montserrat:wght@900&display=swap');
+
+  *{box-sizing: border-box;}
+
+body {
+    background-color: #000; 
+  }
+
+  .principal {
+    display: flex;
+    max-width: 1920px;
+    margin: auto;
+  }
+
+  .principal h1 {
+    color: #FFDE59;
+    font-size: 600%;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10vh;
+  }
+
+  .principal h2 {
+    color: #FFDE59;
+    font-size: 200%;
+    font-family: 'Jacques Francois Shadow', cursive;
+    padding-left: 10vh;
+  }
+
+  .principal p {
+    color: #FFFFFF;
+    font-size: 100%;
+    font-family: 'Montserrat', cursive;
+  }
+
+  .principal .ladoEsquerdo{
+    flex:1;
+    background-image: url('../../img/imagem1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .principal .ladoDireito{
+    flex:1;
+    background-image: url('../../img/imagem2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+
