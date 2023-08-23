@@ -1,52 +1,112 @@
-  @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Montserrat:wght@900&display=swap');
+/* Importando fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Montserrat:wght@900&display=swap');
 
-  *{box-sizing: border-box;}
+/* Definindo o box-sizing global */
+* {
+    box-sizing: border-box;
+}
 
 body {
-    background-color: #000; 
-  }
+    background-color: #000; /* Cor de fundo preta */
+}
 
-  .principal {
-    display: flex;
-    max-width: 1920px;
-    margin: auto;
-  }
+/* Estilos para a classe .principal */
+.principal {
+    display: flex; /* Exibir elementos filhos em linha */
+    max-width: 1920px; /* Largura máxima do layout */
+    margin: auto; /* Centralizar o layout horizontalmente */
+}
 
-  .principal h1 {
-    color: #FFDE59;
-    font-size: 600%;
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 10vh;
-  }
+/* Estilos para o título principal h1 */
+.principal h1 {
+    color: #FFDE59; /* Cor do texto amarelo */
+    font-size: 600%; /* Tamanho da fonte grande */
+    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
+    padding-left: 10vh; /* Espaçamento à esquerda */
+}
 
-  .principal h2 {
-    color: #FFDE59;
-    font-size: 200%;
-    font-family: 'Jacques Francois Shadow', cursive;
-    padding-left: 10vh;
-  }
+/* Estilos para o título secundário h2 */
+.principal h2 {
+    color: #FFDE59; /* Cor do texto amarelo */
+    font-size: 200%; /* Tamanho da fonte médio */
+    font-family: 'Jacques Francois Shadow', cursive; /* Fonte Jacques Francois Shadow */
+    padding-left: 10vh; /* Espaçamento à esquerda */
+    padding-right: 10vh; /* Espaçamento à direita */
+    direction: rtl; /* Texto da direita para a esquerda */
+}
 
-  .principal p {
-    color: #FFFFFF;
-    font-size: 100%;
-    font-family: 'Montserrat', cursive;
-  }
+/* Estilos para os parágrafos */
+.principal p {
+    color: #FFFFFF; /* Cor do texto branco */
+    font-size: 100%; /* Tamanho da fonte padrão */
+    font-family: 'Montserrat', cursive; /* Fonte Montserrat */
+}
 
-  .principal .ladoEsquerdo{
-    flex:1;
-    background-image: url('../../img/imagem1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-  }
+/* Estilos para o lado esquerdo da tela */
+.principal .ladoEsquerdo {
+    flex: 1; /* Cresce para preencher o espaço disponível */
+    background-image: url('../../img/imagem1.png'); /* Imagem de fundo */
+    background-size: cover; /* Redimensionar a imagem para cobrir o elemento */
+    background-repeat: no-repeat; /* Não repetir a imagem de fundo */
+    background-position: center; /* Posição central da imagem */
+    height: 100vh; /* Altura igual à altura da viewport */
+}
 
-  .principal .ladoDireito{
-    flex:1;
-    background-image: url('../../img/imagem2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-  }
+/* Estilos para o lado direito da tela */
+.principal .ladoDireito {
+    flex: 1; /* Cresce para preencher o espaço disponível */
+    background-image: url('../../img/imagem2.png'); /* Imagem de fundo */
+    background-size: cover; /* Redimensionar a imagem para cobrir o elemento */
+    background-repeat: no-repeat; /* Não repetir a imagem de fundo */
+    background-position: center; /* Posição central da imagem */
+    height: 100vh; /* Altura igual à altura da viewport */
+}
+
+/* Estilos para o formulário de login */
+.login-form {
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Borda arredondada */
+    text-align: center; /* Centralizar o texto */
+    position: absolute; /* Posição absoluta */
+    top: 50%; /* Centralizar verticalmente */
+    left: 50%; /* Centralizar horizontalmente */
+    transform: translate(-50%, -50%); /* Centralizar exatamente */
+}
+
+/* Estilos para os elementos dentro do formulário */
+.login-form h3 {
+    color: #FFDE59; /* Cor do texto amarelo */
+    font-size: 24px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.login-form form {
+    display: flex; /* Exibir elementos filhos em coluna */
+    flex-direction: column; /* Alinhar elementos verticalmente */
+}
+
+.login-form input {
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    border: none; /* Remover a borda */
+    border-radius: 4px; /* Borda arredondada */
+}
+
+.login-form button {
+    padding: 10px; /* Espaçamento interno */
+    background-color: #FFDE59; /* Cor de fundo amarela */
+    border: none; /* Remover a borda */
+    border-radius: 4px; /* Borda arredondada */
+    color: #000; /* Cor do texto preto */
+    cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+}
+
+/* Ajuste para posicionar no centro da div .ladoDireito */
+.ladoDireito {
+    display: flex; /* Exibir elementos filhos em linha */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    position: relative; /* Posição relativa para conteúdo posicionado */
+}
 
