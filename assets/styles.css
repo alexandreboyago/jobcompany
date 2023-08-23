@@ -45,7 +45,7 @@ body {
 /* Estilos para o lado esquerdo da tela */
 .principal .ladoEsquerdo {
     flex: 1; /* Cresce para preencher o espaço disponível */
-    background-image: url('../../img/imagem1.png'); /* Imagem de fundo */
+    background-image: url('../img/imagem1.png'); /* Imagem de fundo */
     background-size: cover; /* Redimensionar a imagem para cobrir o elemento */
     background-repeat: no-repeat; /* Não repetir a imagem de fundo */
     background-position: center; /* Posição central da imagem */
@@ -55,7 +55,7 @@ body {
 /* Estilos para o lado direito da tela */
 .principal .ladoDireito {
     flex: 1; /* Cresce para preencher o espaço disponível */
-    background-image: url('../../img/imagem2.png'); /* Imagem de fundo */
+    background-image: url('../img/imagem2.png'); /* Imagem de fundo */
     background-size: cover; /* Redimensionar a imagem para cobrir o elemento */
     background-repeat: no-repeat; /* Não repetir a imagem de fundo */
     background-position: center; /* Posição central da imagem */
@@ -134,7 +134,7 @@ body {
 
 .bodyForms {
   flex: 1; /* Cresce para preencher o espaço disponível */
-  background-image: url('../../img/carbon.jpg'); /* Imagem de fundo */
+  background-image: url('../img/carbon.jpg'); /* Imagem de fundo */
   background-size: cover; /* Redimensionar a imagem para cobrir o elemento */
   background-repeat: no-repeat; /* Não repetir a imagem de fundo */
   background-position: center; /* Posição central da imagem */
